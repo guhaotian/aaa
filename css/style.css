@@ -1,0 +1,515 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    display:block;position:absolute;left:0px;top:0px;width:100%;height:100%;overflow:hidden;
+}
+body{
+    text-align:left;
+    color: #12131a;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: #32323d;
+    margin:0; padding:0;
+    display:block;position:absolute;left:0px;top:0px;width:100%;height:100%;overflow:hidden;
+}
+div{
+    display: block;
+    text-shadow: none;
+    box-sizing: border-box;
+    align-items: center;
+    align-content: center;
+
+    height: 100%;
+
+
+}
+
+/* ul,li{
+    display: inline-block;
+ }*/
+
+span{
+    color: white;
+}
+.whole{
+
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.header-inner-self{
+    padding: 10px;
+    height: 56px;
+    width: 100%;
+
+
+}
+
+.container-self{
+
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+    overflow: auto;
+    background-color: #f3f5f7;
+
+}
+
+.header-self {
+    height:56px;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1300;
+
+}
+.header-container-self{
+    margin-left: auto!important;
+}
+
+.header-name{
+
+}
+.header-search-self{
+    padding-left: 20px;
+    border: white;
+
+
+}
+.d-flex-self{
+    display: flex!important;
+    flex-direction: row;
+}
+.logo-self{
+    width: 100px;
+
+}
+.logo-pic-self{
+    height: 56px;
+    width: 240px;
+}
+.logo-self a {
+    font-family: 'Lucida', serif;
+    font-size: 30px;
+    color: #2f2f2f;
+}
+.name-self{
+    width: 100px;
+    float: left;
+
+}
+.name-self p{
+    font-family: 'Lucida', serif;
+    font-size: 30px;
+    color: #2f2f2f;
+
+}
+.function-self {
+        width: 100%;
+
+    }
+.function-child2-self{
+    margin-left: auto;
+    height: 40px;
+}
+
+.box-self{
+    display: -webkit-flex; /* Safari */
+    display: flex;
+}
+.box.box-tiem-self{
+    padding: 20px;
+}
+
+.nav-a-self{
+    text-decoration: none;
+    text-align: center;
+    padding: 0 20px;
+    color: #000;
+    display: block;
+}
+.nav-top-self ul {
+    list-style: none;
+    line-height: 40px;
+}
+/*设置a的文本装饰为none、文本居中对齐、显示为块显示
+a {
+    text-decoration: none;
+    text-align: center;
+    padding: 0 20px;
+    color: #000;
+    display: block;
+}*/
+/*设置一级菜单左浮动
+.nav-top-self ul li {
+    float: left;
+}*/
+/*二级菜单默认显示为不显示
+.nav-top-self ul li ul li {
+    float: none;
+    display: none;
+}*/
+/*当鼠标经过一级菜单时二级菜单设置为显示*/
+.nav-top-self ul li:hover li {
+    display: block
+}
+/*设置a标签背景
+.nav-top-self ul li ul li  a{
+    background-color: #ccc;
+}*/
+/*设置一级菜单经过时背景颜色（这里设置的是全部a标签，由权值覆盖二级标签经过颜色）
+a:hover {
+    background-color: #F60;
+}*/
+/*设置二级菜单经过时的背景颜色
+.nav-top-selful li ul li a:hover {
+    background-color: #0CC;
+}*/
+.search-input-self{
+    width: 100%;
+    height: 43px;
+    background: #f9f5f5;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+.search_button-self{
+    position: absolute;
+    top: 45%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 10px;
+    width: 19px;
+    height: 19px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.email-self{
+    position: relative;
+
+
+}
+.top-position
+{
+    justify-content: flex-end;
+}
+.dropdown-menu-right{
+    right: 0px;
+    left: auto;
+
+
+}
+.email_num_container-self{
+    position: absolute;
+    top: 3px;
+    left: 25px;
+    width: 15px;
+    height: 15px;
+    background-color:red ;
+    border-radius: 50%;
+
+}
+.email_num-self{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 9px;
+    font-weight: 600;
+    color: black;
+}
+.nav-top{
+    height: 56px;
+    background: #004ab3;
+
+}
+.sidebar-self{
+    position: absolute;
+    width:100%;
+    display: flex;
+    padding: 0;
+    top:0;
+    right: 0;
+    left: 0;
+    background-color: #32323d;
+    list-style: none;
+    margin-bottom: 0;
+    z-index: 1030;
+
+
+
+
+}
+.row-self{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #32323d;
+    width: 240px;
+    height: 100%;
+}
+.ul-sidebar-self{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 0;
+    transition-timing-function: ease;
+    transition-property: padding;
+    width: 240px;
+
+}
+.nav-category-main-self{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    font-weight: 500;
+    line-height: 1.8;
+}
+.nav-category-main-self span{
+    padding: 2.625rem 1.4rem 0.625rem;
+    color: #4fc04d;
+}
+.nav-category-self{
+     border-bottom: 1px solid rgba(255, 255, 255, 255);
+     font-weight: 500;
+     line-height: 1.8;
+ }
+.nav-link-self{
+    justify-content: space-between;
+    padding: 0.6rem 1.4rem;
+    white-space: nowrap;
+    color: #aeaeae;
+    font-size: 0.8rem;
+
+}
+.nav-item-self{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    font-weight: 500;
+}
+.nav-icon-self{
+    width: 28px;
+    height: 16px;
+    vertical-align:middle;
+}
+.content-wrapper-self{
+
+    background-color: #f3f5f7;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 24px;
+    width: 100%;
+    overflow: auto;
+}
+
+.dashboard-raw-self{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.clo-md-self{
+    width:270px;
+    position: relative;
+    padding: 15px;
+
+}
+.clo-md-top-self {
+    display: block;
+    width: 100%;
+    line-height: 1.33;
+    font-size: 17px;
+    padding: 10px 16px;
+    color: #fff;
+    background-color: #05c;
+    border-color: #004ab3;
+    border-radius: 10px;
+}
+.clo-md-top-self i {
+    display: inline-block;
+
+}
+.panel-self{
+    margin-top: 12px;
+    margin-bottom: 18px;
+    position: relative;
+    width: 100%;
+    border-color: #ddd;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.255);
+    height: 30%!important;
+}
+.panel-heading-self{
+    color: #333333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    height: 56px;
+}
+.list-group-self{
+    display: inline-block;
+    height: 240px;
+}
+.nav-position{
+    position: relative;
+}
+
+.div-height{
+    height: 100%;
+    padding-top: 20px;
+}
+.div-overflow-hidden{
+    overflow: hidden;
+}
+
+
+
+.container-scroller{
+    overflow: hidden;
+}
+.fixed-top{
+    position: fixed;
+}
+.nav-fix-top{
+    padding-top: 56px;
+}
+.div-overflow-auto{
+    overflow: auto;
+}
+.adjust-background-color{
+    background-color: #343a40!important;
+}
+.nav-title{
+    text-align: center;
+
+}
+.nav-sidebar{
+    width: 100%;
+}
+.li-item{
+    text-align: center;
+}
+.faceicon{
+    height: 200px;
+    width: 200px;
+}
+.faceicon-img{
+    height: 100%;
+    width: 100%;
+}
+.settingicon{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 3px;
+    left: 205px;
+}
+.settingicon-img{
+    height: 100%;
+    width: 100%;
+}
+
+.company1-height{
+    height: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.company2-height{
+    height: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.company1
+{
+    border:1px solid #000;
+}
+.company2{
+    padding-left: 0px!important;
+    padding-right: 10px!important;
+}
+.search-height{
+    height: 38px;
+}
+.filter-height{
+    height: 80%;
+}
+.filter-space{
+    margin-top: 20px;
+}
+.button-space{
+    padding: 20px;
+    text-align: right;
+}
+.moduel-height{
+    height: 90%;
+}
+.module{
+    height: 800px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.plan-top{
+ padding-bottom: 20px;
+}
+.plan-bottom{
+    padding-top: 20px;
+}
+.textUnderline{
+    text-decoration: underline!important;
+}
+.cardHeight{
+    height: 80px;
+    align-items: normal!important;
+}
+.cardStyle{
+    align-items: normal!important;
+    padding: 1px!important;
+}
+.cardDate{
+  float: right;
+
+}
+.cardContent{
+    padding-left: 10px;
+}
+.paddingInside10{
+    padding-top: 10px;
+}
+.nonActive{
+    width: 90%;
+}
+.thickTh{
+    width: 80%;
+}
+.thinTh{
+    width: 10%;
+}
+.bannerHeight{
+    height: 100px;
+    padding: 0!important;
+    border:1px solid #000;
+    overflow: hidden;
+}
